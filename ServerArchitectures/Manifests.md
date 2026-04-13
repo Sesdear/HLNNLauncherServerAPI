@@ -28,7 +28,9 @@ Example path: `AvalibleServers[1]` -> `/api/servers/{AvalibleServers[1]}/data`
     "MinecraftVersion":"1.20.1",
     "MinecraftModLoader":"forge",
     "MinecraftModLoaderVersion":"4.19.1",
-    "FilesRepoURL":"https://example-git.com/repo.git"
+    "FilesRepoURL":"https://example-git.com/repo.git",
+    "Branch": "main",
+    "Commit": "abc123"
 }
 
 ```
@@ -40,6 +42,8 @@ Server data manifest contains:
 - `MinecraftModLoader: string`
 - `MinecraftModLoaderVersion: string`
 - `FilesRepoURL: string`
+- `Branch: string`
+- `Commit: string`
 
 
 
