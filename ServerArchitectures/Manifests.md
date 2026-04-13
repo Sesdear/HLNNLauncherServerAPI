@@ -2,6 +2,7 @@
 
 ## /api/indexes
 #### Indexes manifest
+Request:
 
 ``` Json
 {
